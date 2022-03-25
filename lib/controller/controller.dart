@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-import 'models/photo_model.dart';
+import '../models/photo_model.dart';
 
 class Controller extends GetxController {
   static Controller get to => Get.put<Controller>(Controller());
